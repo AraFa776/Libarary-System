@@ -4,6 +4,7 @@
   --holding-color: #848c8e;
   --second-color: #dcf763;
   --transition-time: 0.5s;
+  --secion-padding: 100px;
 }
 /* End Variables */
 /* Start Global Rules */
@@ -59,8 +60,15 @@ ul {
 /* Start Components */
 /* End Components */
 /* Start Header */
-.header .container {
+.header {
+  color: white;
   position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,7 +97,9 @@ ul {
   color: var(--second-color);
   border-radius: 20px;
 }
-
+.header .container .sign-in .button {
+  color: black;
+}
 .header .container .sign-in > :not(last-child) {
   margin-right: 10px;
 }
@@ -97,12 +107,13 @@ ul {
   font-size: 10px;
   padding: 10px;
   border-radius: 20px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
-.header .container .sign-in .active {
+.header .container .sign-in > i:hover {
   background-color: var(--main-color);
   color: var(--second-color);
   border: none;
+  transition-duration: var(--transition-time);
 }
 .header .container .sign-in .button {
   width: 100px;
@@ -126,52 +137,157 @@ ul {
 }
 /* End Header */
 /* Start Landing */
-/* .landing {
-   min-height: 100vh;
-   display:flex;
-   
+.landing {
+  color: white;
+  min-height: 100vh;
+  background-color: #1f2021;
+  background-image: url(../images/Landing.jpg);
+  background-size: cover;
+  position: relative;
 }
-.search form {
+
+.landing .container {
+  padding: var(--secion-padding) 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.landing .container .info {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.landing .container .info img {
+  height: 300px;
+}
+.landing .container .text {
+  padding: 30px;
+}
+.landing .container .text > p:first-of-type {
+  font-size: 60px;
+}
+.landing .container .text > p:last-of-type {
+  color: var(--holding-color);
+}
+.landing .container .text button {
+  display: inline;
+  margin: 30px 5px 0px 0px;
+  width: 40%;
+  padding: 7px;
+  font-size: 13px;
+  text-align: center;
+  border: none;
+  background-color: var(--second-color);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.landing .container .text button:first-of-type {
+  background-color: var(--holding-color);
+}
+.landing .container .text button i {
+  font-size: 10px;
+}
+.landing .container .search {
+  text-align: center;
+  width: 80%;
+  background-color: gray;
+  padding: 20px 50px;
+  margin-top: 30px;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.landing .container .search form {
   display: flex;
   position: relative;
   width: 500px;
   max-width: 100%;
-  border-radius:50px;
 }
 
-.search form::placeholder {
+.landing .container .search form::placeholder {
   color: white;
 }
 
-.search form i {
+.landing .container .search form i {
   position: absolute;
   top: 50%;
   left: 30px;
+  color: black;
   transform: translateY(-50%);
 }
 
-.search form input[type="Search"] {
+.landing .container .search form input[type="Search"] {
   border: 1px solid white;
-  border-right: none;
+  max-width: 100%;
   padding: 20px 20px 20px 60px;
-  background-color: transparent;
+  background-color: #eee;
   caret-color: var(--main-color);
-  width: calc(100% - 150px);
+  width: 100%;
+  border-radius: 30px;
 }
 
-.search form input[type="submit"] {
+.landing .container .search form input[type="submit"] {
+  position: absolute;
   width: 150px;
+  height: calc(100% - 10px);
   padding: 10px 20px;
   text-transform: uppercase;
   cursor: pointer;
-  border: 1px solid white;
-  border-left: none;
+  border: none;
   background-color: var(--main-color);
   color: white;
+  border-radius: 30px;
+  right: 5px;
+  top: 8%;
 }
 
-.search form input[type="Search"]:focus,
-.search form input[type="submit"]:focus {
+.landing .container .search form input[type="Search"]:focus,
+.landing .container .search form input[type="submit"]:focus {
   outline: none;
-} */
+}
+.landing .container .search .photos {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+}
+.landing .container .search .photos .image {
+  display: inline-block;
+  position: relative;
+  width: calc(100% - 70px);
+  padding: 0px 5px;
+  background-color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  transition-duration: var(--transition-time);
+}
+.landing .container .search .photos .image:hover {
+  transform: translate(-10px, -10px);
+}
+.landing .container .search .photos .image span {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: -15%;
+  left: 50%;
+  border-radius: 50%;
+  background-color: white;
+  transition-duration: var(--transition-time);
+}
+.landing .container .search .photos .image:hover span {
+  border:1px solid black;
+  background-color: var(--second-color);
+}
+.landing .container .search .photos .image img {
+  width: 100px;
+  padding: 10px;
+  position: relative;
+  bottom: -5px;
+}
 /* End Landing */
