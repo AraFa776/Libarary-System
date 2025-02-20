@@ -312,7 +312,7 @@ ul {
 /* End Landing */
 /* Start Category */
 .category .container {
-  padding: var(--secion-padding);
+  padding: var(--secion-padding) 0px;
 }
 .category .container .head {
   display: flex;
@@ -378,3 +378,122 @@ ul {
   font-size: 13px;
 }
 /* End Category */
+/* Start Arrivals */
+.arrivals .container {
+  padding: var(--secion-padding) 0px;
+}
+.arrivals .container .head {
+  display: flex;
+  justify-content: space-between;
+}
+.arrivals .container .head span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.arrivals .container .head .arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+.arrivals .container .head .arrows button {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.arrivals .container .head .arrows button i {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+.arrivals .container .head .arrows button:hover {
+  background-color: var(--main-color);
+  border: none;
+  color: var(--second-color);
+  transition: var(--transition-time);
+}
+.arrivals .container .content {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.arrivals .container .content .card {
+  width: calc(90% / 6);
+}
+.arrivals .container .content .card .image {
+  position: relative;
+}
+.arrivals .container .content .card .image i {
+  font-family: "Font Awesome 5 Free";
+  content: "\f004";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  right: 5px;
+  top: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrivals .container .content .card .image i:hover {
+  background-color: var(--main-color);
+  border: none;
+  color: var(--second-color);
+  transition: var(--transition-time);
+}
+.arrivals .container .content .card .image img {
+  width: 100%;
+  border-radius: 20px;
+}
+.arrivals .container .content .card .rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.arrivals .container .content .card .rate i {
+  background-color: var(--second-color);
+  color: var(--main-color);
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.arrivals .container .content .card .author {
+  margin-bottom: 20px;
+}
+.arrivals .container .content .card .rate span,
+.arrivals .container .content .card .author p:first-child,
+.arrivals .container .content .card .info > p {
+  color: var(--holding-color);
+  font-size: 12px;
+}
+.arrivals .container .content .card .price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.arrivals .container .content .card .price span:first-child {
+  font-weight: bold;
+}
+.arrivals .container .content .card .price span:last-child {
+  color: red;
+  font-size: 12px;
+}
+.arrivals .container .content .card button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 20px;
+}
+.arrivals .container .content .card button i {
+  margin-left: 10px;
+}
+/* End Arrivals */
