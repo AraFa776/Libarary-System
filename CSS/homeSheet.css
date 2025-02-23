@@ -22,6 +22,9 @@ html {
 
 body {
   font-family: "Syne", sans-serif;
+  cursor: default;
+  background-image: url(../images/Background.png);
+  background-size: cover;
 }
 
 ul {
@@ -61,8 +64,7 @@ ul {
 /* End Components */
 /* Start Header */
 .header {
-  color: white;
-  position: absolute;
+  position: fixed;
   left: 0;
   width: 100%;
   z-index: 2;
@@ -72,6 +74,9 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 30px;
 }
 .header .container img {
   width: 150px;
@@ -97,9 +102,6 @@ ul {
   color: var(--second-color);
   border-radius: 20px;
 }
-.header .container .sign-in .button {
-  color: black;
-}
 .header .container .sign-in > :not(last-child) {
   margin-right: 10px;
 }
@@ -107,7 +109,7 @@ ul {
   font-size: 10px;
   padding: 10px;
   border-radius: 20px;
-  border: 1px solid white;
+  border: 1px solid black;
 }
 .header .container .sign-in > i:hover {
   background-color: var(--main-color);
@@ -115,8 +117,10 @@ ul {
   border: none;
   transition-duration: var(--transition-time);
 }
-.header .container .sign-in .button {
-  width: 100px;
+
+.header .container .sign-in button {
+  width: 120px;
+  color: black;
   text-align: center;
   border: 1px solid black;
   background-color: var(--second-color);
@@ -124,12 +128,10 @@ ul {
   border-radius: 20px;
   cursor: pointer;
 }
-
-.header .container .sign-in .button,
-.header .container .sign-in .button > p {
-  display: inline-block;
+.header .container .sign-in button p {
+  display: inline;
+  margin-right: 10px;
 }
-
 @media (max-width: 767px) {
   .header .container .sign-in .button {
     display: none;
@@ -138,11 +140,7 @@ ul {
 /* End Header */
 /* Start Landing */
 .landing {
-  color: white;
   min-height: 100vh;
-  background-color: #1f2021;
-  background-image: url(../images/Landing.jpg);
-  background-size: cover;
   position: relative;
 }
 
@@ -155,15 +153,21 @@ ul {
 }
 .landing .container .info {
   display: flex;
-  flex-basis: 50%;
   justify-content: center;
   align-items: center;
 }
 .landing .container .info img {
-  height: 300px;
+  height: 250px;
 }
-.landing .container .text {
+.landing .container .info .text {
   padding: 30px;
+  width: 400px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .landing .container .info .text {
+    display: none;
+  }
 }
 .landing .container .text > p:first-of-type {
   font-size: 60px;
@@ -174,10 +178,9 @@ ul {
 .landing .container .text button {
   display: inline;
   margin: 30px 5px 0px 0px;
-  width: 40%;
-  padding: 7px;
-  font-size: 13px;
-  text-align: center;
+  width: 120px;
+  height: 35px;
+  font-size: 15px;
   border: none;
   background-color: var(--second-color);
   border-radius: 20px;
@@ -203,10 +206,18 @@ ul {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 767px) {
+  .landing .container .search {
+    overflow: hidden;
+  }
+}
 .landing .container .search form {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 500px;
+  height: 40px;
   max-width: 100%;
 }
 
@@ -234,8 +245,7 @@ ul {
 
 .landing .container .search form input[type="submit"] {
   position: absolute;
-  width: 150px;
-  height: calc(100% - 10px);
+  width: 120px;
   padding: 10px 20px;
   text-transform: uppercase;
   cursor: pointer;
@@ -243,8 +253,7 @@ ul {
   background-color: var(--main-color);
   color: white;
   border-radius: 30px;
-  right: 5px;
-  top: 8%;
+  right: 10px;
 }
 
 .landing .container .search form input[type="Search"]:focus,
@@ -253,13 +262,13 @@ ul {
 }
 .landing .container .search .photos {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
   width: 100%;
 }
 .landing .container .search .photos .image {
-  display: inline-block;
   position: relative;
-  width: calc(100% - 70px);
   padding: 0px 5px;
   background-color: white;
   margin-left: 20px;
@@ -268,7 +277,7 @@ ul {
   transition-duration: var(--transition-time);
 }
 .landing .container .search .photos .image:hover {
-  transform: translate(-10px, -10px);
+  transform: translateY(-10px);
 }
 .landing .container .search .photos .image span {
   position: absolute;
@@ -281,7 +290,7 @@ ul {
   transition-duration: var(--transition-time);
 }
 .landing .container .search .photos .image:hover span {
-  border:1px solid black;
+  border: 1px solid black;
   background-color: var(--second-color);
 }
 .landing .container .search .photos .image img {
@@ -290,4 +299,201 @@ ul {
   position: relative;
   bottom: -5px;
 }
+@media (max-width: 1191px) {
+  .landing .container .search .photos .image img {
+    width: 60px;
+    padding: 5px;
+  }
+  .landing .container .search .photos .image span {
+    display: none;
+    transform: none;
+  }
+}
 /* End Landing */
+/* Start Category */
+.category .container {
+  padding: var(--secion-padding) 0px;
+}
+.category .container .head {
+  display: flex;
+  justify-content: space-between;
+}
+.category .container .head span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.category .container .head .arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+.category .container .head .arrows button {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.category .container .head .arrows button i {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+.category .container .head .arrows button:hover {
+  background-color: var(--main-color);
+  border: none;
+  color: var(--second-color);
+  transition: var(--transition-time);
+}
+.category .container .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin-top: 20px;
+  gap: 20px;
+}
+.category .container .content .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.category .container .content .card:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 10px var(--main-color);
+}
+.category .container .content .card .info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.category .container .content .card .info :first-child {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.category .container .content .card .info :last-child {
+  color: var(--holding-color);
+  font-size: 13px;
+}
+/* End Category */
+/* Start Arrivals */
+.arrivals .container {
+  padding: var(--secion-padding) 0px;
+}
+.arrivals .container .head {
+  display: flex;
+  justify-content: space-between;
+}
+.arrivals .container .head span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.arrivals .container .head .arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+}
+.arrivals .container .head .arrows button {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.arrivals .container .head .arrows button i {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+.arrivals .container .head .arrows button:hover {
+  background-color: var(--main-color);
+  border: none;
+  color: var(--second-color);
+  transition: var(--transition-time);
+}
+.arrivals .container .content {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.arrivals .container .content .card {
+  width: calc(90% / 6);
+}
+.arrivals .container .content .card .image {
+  position: relative;
+}
+.arrivals .container .content .card .image i {
+  font-family: "Font Awesome 5 Free";
+  content: "\f004";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  right: 5px;
+  top: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrivals .container .content .card .image i:hover {
+  background-color: var(--main-color);
+  border: none;
+  color: var(--second-color);
+  transition: var(--transition-time);
+}
+.arrivals .container .content .card .image img {
+  width: 100%;
+  border-radius: 20px;
+}
+.arrivals .container .content .card .rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.arrivals .container .content .card .rate i {
+  background-color: var(--second-color);
+  color: var(--main-color);
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.arrivals .container .content .card .author {
+  margin-bottom: 20px;
+}
+.arrivals .container .content .card .rate span,
+.arrivals .container .content .card .author p:first-child,
+.arrivals .container .content .card .info > p {
+  color: var(--holding-color);
+  font-size: 12px;
+}
+.arrivals .container .content .card .price {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.arrivals .container .content .card .price span:first-child {
+  font-weight: bold;
+}
+.arrivals .container .content .card .price span:last-child {
+  color: red;
+  font-size: 12px;
+}
+.arrivals .container .content .card button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 20px;
+}
+.arrivals .container .content .card button i {
+  margin-left: 10px;
+}
+/* End Arrivals */
