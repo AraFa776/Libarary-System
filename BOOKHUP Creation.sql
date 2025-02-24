@@ -1,4 +1,4 @@
-﻿
+-- this is the code that I writen in sql
 --CREATE DATABASE BOOKHUP;
 
 use BOOKHUP
