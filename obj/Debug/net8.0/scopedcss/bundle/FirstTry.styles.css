@@ -1,0 +1,117 @@
+/* _content/FirstTry/Views/Shared/_Layout.cshtml.rz.scp.css */
+:root[b-e8byfz9xu0] {
+    --main-color: #435058;
+    --main-color-rbg: rgb(67 80 88 / 90%);
+    --holding-color: #848c8e;
+    --second-color: #dcf763;
+    --transition-time: 0.5s
+}
+
+/* Start Header */
+header[b-e8byfz9xu0] {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+    header .container[b-e8byfz9xu0] {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255 255 255 / 60%);
+    }
+
+.logo[b-e8byfz9xu0] {
+    position: relative;
+    width: 200px;
+}
+
+    .logo[b-e8byfz9xu0]::before {
+        content: "";
+        width: 170px;
+        height: 100%;
+        background-color: var(--main-color-rbg);
+        position: absolute;
+        left: -15px;
+        top: 0px;
+        z-index: 3;
+    }
+
+    .logo img[b-e8byfz9xu0] {
+        position: relative;
+        width: 140px;
+        z-index: 4;
+    }
+
+header .container nav ul[b-e8byfz9xu0] {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    header .container img[b-e8byfz9xu0] {
+        width: 100px;
+    }
+
+    header .container nav[b-e8byfz9xu0] {
+        display: none;
+    }
+}
+
+header .container nav ul li[b-e8byfz9xu0] {
+    padding: 10px;
+    margin: 5px;
+    transition-duration: var(--transition-time);
+}
+
+header .container ul li:hover[b-e8byfz9xu0] {
+    background-color: var(--main-color);
+    color: var(--second-color);
+    border-radius: 20px;
+}
+
+header .container .sign-in > i[b-e8byfz9xu0] {
+    margin-right: 10px;
+}
+
+header .container .sign-in > i[b-e8byfz9xu0] {
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+    header .container .sign-in > i:hover[b-e8byfz9xu0] {
+        background-color: var(--main-color);
+        color: var(--second-color);
+        border: none;
+        transition-duration: var(--transition-time);
+    }
+
+header .container .sign-in button[b-e8byfz9xu0] {
+    width: 120px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    background-color: var(--second-color);
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+    header .container .sign-in button p[b-e8byfz9xu0] {
+        display: inline;
+        margin-right: 10px;
+    }
+
+@media (max-width: 767px) {
+    header .container .sign-in > i[b-e8byfz9xu0] {
+        margin-right: 5px;
+    }
+
+    header .container .sign-in .button[b-e8byfz9xu0] {
+        display: none;
+    }
+}
+/* End Header */

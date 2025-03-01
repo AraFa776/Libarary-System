@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - Book Hub</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/all.min.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/normalize.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+	<header>
+		<div class="backge">
+			<div class="logo">
+				<a>
+					<img src="~/images/Logo.png" alt="logo" />
+				</a>
+			</div>
+			<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
+				<div class="container-fluid ">
+					<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+						<ul class="navbar-nav flex-grow-1">
+							<li class="nav-item">
+								<a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+							</li>
+							<div class="dropdown">
+								<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Category
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item" href="#">Non Fiction</a>
+									<a class="dropdown-item" href="#">Fiction</a>
+									<a class="dropdown-item" href="#">History</a>
+									<a class="dropdown-item" href="#">Astronaut</a>
+									<a class="dropdown-item" href="#">Thrill</a>
+									<a class="dropdown-item" href="#">Poetry</a>
+								</div>
+							</div>
+							<li>
+								<a asp-controller="Home" asp-action="Privacy">New Arrivals</a>
+							</li>
+							<li>
+								<a asp-controller="Home" asp-action="Privacy">Trending</a>
+							</li>
+							<li>
+								<a asp-controller="Home" asp-action="Privacy">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="sign-in">
+				<i class="fa-solid fa-cart-shopping"></i>
+				<i class="fa-solid fa-heart"></i>
+				<button>
+					<p>Sign In</p>
+					<i class="fa-regular fa-circle-user"></i>
+				</button>
+			</div>
+		</div>
+	</header>
+	@RenderBody()
+	<footer>
+		<div class="backge">
+			<div class="footer-column">
+				<img src="~/images/Logo.png" alt="logo" />
+				<div class="contact">
+					<h4>Contact Info</h4>
+					<p><b>Address: </b> lorem ipsum is simply dummy text</p>
+					<p><b>Call Us: </b> +91 94038XXXXX</p>
+					<p><b>Email Us: </b> Email@gmail.com</p>
+				</div>
+				<div class="social">
+					<p>Follow Us</p>
+					<a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+					<a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+					<a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="info">
+				<h3>Company</h3>
+				<p>About Us</p>
+				<p>Publisher Partnership</p>
+				<p>Contact Us</p>
+				<p>Privacy Policy</p>
+				<p>Disclaimer</p>
+			</div>
+			<div class="info">
+				<h3>My Account</h3>
+				<p>My Orders</p>
+				<p>My Addresses</p>
+				<p>My Personal info</p>
+			</div>
+			<div class="info">
+				<h3>Support</h3>
+				<p>Terms of Use</p>
+				<p>How to order</p>
+				<p>Shipping Policy</p>
+				<p>Return Policy</p>
+			</div>
+			<div class="info">
+				<h3>More Books</h3>
+				<p>Indian Languages</p>
+				<p>International Languages</p>
+				<p>Award winning Books</p>
+				<p>Frontlist Picks Books</p>
+				<p>Used Books</p>
+				<p>Exams & Age</p>
+			</div>
+		</div>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

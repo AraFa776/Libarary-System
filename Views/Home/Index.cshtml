@@ -1,0 +1,129 @@
+﻿
+<link rel="stylesheet" href="~/css/homeSheet.css" asp-append-version="true" />
+
+@* Start Landing *@
+<div class="landing">
+	<div class="backge">
+		<div class="info">
+			<img src="images/Book.png" alt="Not Found">
+			<div class="text">
+				<p>book name</p>
+				<p>author name</p>
+				<button>
+					More info
+				</button>
+				<button>
+					Buy Now
+					<i class="fa-solid fa-cart-shopping active"></i>
+				</button>
+			</div>
+		</div>
+		<div class="search">
+			<form>
+				<i class="fa-solid fa-magnifying-glass"></i>
+				<input type="search" placeholder="Search Book...">
+				<input type="submit" value="Search">
+			</form>
+			<div class="photos">
+				@for (int i = 0; i < 6; i++)
+				{
+					<div class="image"><img src="images/Book.png" alt="Not Found"><span></span></div>
+				}
+			</div>
+		</div>
+	</div>
+</div>
+@* End Landing *@
+@* Start Trending *@
+<div class="trending">
+	<div class="backge">
+		<div class="main-heading">
+			<span>Trending</span>
+			<div class="arrows">
+				<button><i class="fa-solid fa-arrow-left"></i></button>
+				<button><i class="fa-solid fa-arrow-right"></i></button>
+			</div>
+		</div>
+		<div class="content">
+			<div class="text">
+				<div class="types">
+					<p>Historical Biographies <i class="fa-solid fa-arrow-right"></i></p>
+					<p>Leaders & Notable <i class="fa-solid fa-arrow-right"></i></p>
+					<p>Modern Biographies <i class="fa-solid fa-arrow-right"></i></p>
+					<p>Sports Biographies <i class="fa-solid fa-arrow-right"></i></p>
+					<p>United States Biographies <i class="fa-solid fa-arrow-right"></i></p>
+					<p>Action & Adventure <i class="fa-solid fa-arrow-right"></i></p>
+				</div>
+				<button>View More <i class="fa-solid fa-angle-right"></i></button>
+			</div>
+			<div class="cards">
+				@for (int i = 0; i < 3; i++)
+				{
+					<div class=" card-shape">
+						<div class="image">
+							<i class="fa-solid fa-heart"></i>
+							<img src="images/Book.png" alt="Book">
+						</div>
+						<div class="info">
+							<div class="rate">
+								<i class="fa-solid fa-star">  4.5</i>
+								<span>140 Reviews</span>
+							</div>
+							<div class="author">
+								<p>By Author Name</p>
+								<p>Title of Book</p>
+							</div>
+							<p><del>Rs 200.00 Eg</del></p>
+							<div class="price">
+								<span>Rs 100.00 Eg</span>
+								<span>50% off</span>
+							</div>
+							<button> Add To Cart <i class="fa-solid fa-cart-shopping active"></i></button>
+						</div>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</div>
+@* End Trending *@ 
+@* Start Arrivals *@
+<div class="arrivals">
+	<div class="backge">
+		<div class="main-heading">
+			<span>New Arrivals</span>
+			<div class="arrows">
+				<button><i class="fa-solid fa-arrow-left"></i></button>
+				<button><i class="fa-solid fa-arrow-right"></i></button>
+			</div>
+		</div>
+		<div class="content">
+			@for (int i = 0; i < 6; i++)
+			{
+				<div class=" card-shape">
+					<div class="image">
+						<i class="fa-solid fa-heart"></i>
+						<img src="images/Book.png">
+					</div>
+					<div class="info">
+						<div class="rate">
+							<i class="fa-solid fa-star">  4.5</i>
+							<span>140 Reviews</span>
+						</div>
+						<div class="author">
+							<p>By Author Name</p>
+							<p>Title of Book</p>
+						</div>
+						<p><del>Rs 200.00 Eg</del></p>
+						<div class="price">
+							<span>Rs 100.00 Eg</span>
+							<span>50% off</span>
+						</div>
+						<button> Add To Cart <i class="fa-solid fa-cart-shopping active"></i></button>
+					</div>
+				</div>
+			}
+		</div>
+	</div>
+</div>
+@* End Arrivals *@
