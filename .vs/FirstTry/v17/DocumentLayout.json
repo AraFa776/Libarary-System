@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Sherif ( mobadra )\\Libarary-System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|h:\\sherif ( mobadra )\\libarary-system\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|h:\\sherif ( mobadra )\\libarary-system\\wwwroot\\css\\loginsheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|solutionrelative:wwwroot\\css\\loginsheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|h:\\sherif ( mobadra )\\libarary-system\\wwwroot\\css\\homesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|solutionrelative:wwwroot\\css\\homesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|h:\\sherif ( mobadra )\\libarary-system\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8FDFBFBA-C6BD-4F0C-8AAB-FCA2F5C14656}|FirstTry.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "H:\\Sherif ( mobadra )\\Libarary-System\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "H:\\Sherif ( mobadra )\\Libarary-System\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T20:39:32.56Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "H:\\Sherif ( mobadra )\\Libarary-System\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "H:\\Sherif ( mobadra )\\Libarary-System\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T20:57:31.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "homeSheet.css",
+              "DocumentMoniker": "H:\\Sherif ( mobadra )\\Libarary-System\\wwwroot\\css\\homeSheet.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\homeSheet.css",
+              "ToolTip": "H:\\Sherif ( mobadra )\\Libarary-System\\wwwroot\\css\\homeSheet.css",
+              "RelativeToolTip": "wwwroot\\css\\homeSheet.css",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T20:57:16.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogInSheet.css",
+              "DocumentMoniker": "H:\\Sherif ( mobadra )\\Libarary-System\\wwwroot\\css\\LogInSheet.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\LogInSheet.css",
+              "ToolTip": "H:\\Sherif ( mobadra )\\Libarary-System\\wwwroot\\css\\LogInSheet.css",
+              "RelativeToolTip": "wwwroot\\css\\LogInSheet.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-17T20:48:38.841Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
