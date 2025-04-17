@@ -1,4 +1,4 @@
-/* Start Variables */
+﻿/* Start Variables */
 :root {
     --main-color: #435058;
     --main-color-rbg: rgb(67 80 88 / 90%);
@@ -100,6 +100,11 @@ ul {
                 color: var(--second-color);
                 transition: var(--transition-time);
             }
+
+.social a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
 
 .card-shape {
     width: calc(90% / 6);
@@ -489,7 +494,7 @@ ul {
 
 @media (max-width: 1191px) {
     .arrivals .backge {
-        padding: var(--secion-padding) 20px;
+        padding: var(--se*cion-padding) 20px;
     }
 }
 
@@ -499,4 +504,55 @@ ul {
     justify-content: space-between;
     overflow: hidden;
 }
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    direction: rtl;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    margin:  0;
+}
+
+    .contact-item i {
+        font-size: 18px;
+        color: #1877f2;
+    }
+
+    .contact-item a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+        .contact-item a:hover {
+            color: #0d5bb5;
+        }
+
 /* End Arrivals */
+
+.CO {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.CO a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+    .CO a:hover {
+        color: #0066cc;
+    }
