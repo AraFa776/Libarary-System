@@ -1,6 +1,78 @@
 @{
     ViewData["Title"] = "Register";
+    Layout = "";
 }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/registersheet.css" rel="stylesheet" />
+    <title>Create Account</title>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="signup-header">
+            <h1>Create Account</h1>
+        </div>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="username" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <div class="password-field">
+                    <input type="password" placeholder="Password" required>
+                    <span class="password-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="password-field">
+                    <input type="password" placeholder="Confirm Password" required>
+                    <span class="confirm-password-toggle password-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <div class="terms-checkbox">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree all statements in <a href="#">Terms of service</a></label>
+            </div>
+            <button type="submit" class="signup-button">Sign Up</button>
+            <div class="login-link">
+                Have already an account? <a href="#">Login here</a>
+            </div>
+        </form>
+    </div>
 
-<h2>@ViewData["Title"]</h2>
-<h1>Register</h1>
+    <script>
+        document.querySelector('.password-toggle').addEventListener('click', function() {
+            const passwordInput = this.previousElementSibling;
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+
+         document.querySelector('.confirm-password-toggle').addEventListener('click', function() {
+            const passwordInput = this.previousElementSibling;
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+    </script>
+</body>
+</html>

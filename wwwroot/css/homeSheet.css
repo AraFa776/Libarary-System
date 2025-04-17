@@ -422,12 +422,13 @@ ul {
         }
 
 @media (max-width:767px) {
-    .trending .backge{
+    .trending .backge {
         margin: 0px 20px;
     }
-    .trending .backge .text {
-        display: none;
-    }
+
+        .trending .backge .text {
+            display: none;
+        }
 }
 
 .trending .backge .text p {
@@ -519,7 +520,7 @@ ul {
     align-items: center;
     gap: 8px;
     font-size: 16px;
-    margin:  0;
+    margin: 0;
 }
 
     .contact-item i {
@@ -545,13 +546,13 @@ ul {
     gap: 12px;
 }
 
-.CO a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-    .CO a:hover {
-        color: #0066cc;
+    .CO a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s;
     }
+
+        .CO a:hover {
+            color: #0066cc;
+        }
