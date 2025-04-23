@@ -1,21 +1,27 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using FirstTry.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstTry.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly BookhupContext _context;
+    public HomeController(ILogger<HomeController> logger, BookhupContext context)
     {
         _logger = logger;
+        _context = context;
     }
 
     public IActionResult Index()
     {
-        return View();
+        var books = _context.Books
+              .Include(b => b.Author)
+              .Include(b => b.Publisher)
+              .ToList();
+        return View(books);
     }
 
     public IActionResult Privacy()
