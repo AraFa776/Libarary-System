@@ -1,14 +1,15 @@
-﻿
+@model List<FirstTry.Models.Book>﻿
 <link rel="stylesheet" href="~/css/homeSheet.css" asp-append-version="true" />
 
 @* Start Landing *@
 <div class="landing">
 	<div class="backge">
 		<div class="info">
-			<img src="images/Book.png" alt="Not Found">
+			<img id="image" src="images/Book.png" alt="Not Found">
 			<div class="text">
-				<p>book name</p>
-				<p>author name</p>
+                <p id="bookTitle">@Model.FirstOrDefault()?.Title</p>
+                <p id="bookAuthor">@Model.FirstOrDefault()?.Author?.AuthorsName</p>
+                <p id="bookPrice">@Model.FirstOrDefault()?.Price.ToString("C")</p>
 				<button>
 					More info
 				</button>
@@ -24,10 +25,15 @@
 				<input type="search" placeholder="Search Book...">
 				<input type="submit" value="Search">
 			</form>
-			<div class="photos">
-				@for (int i = 0; i < 6; i++)
+			<div class="photos" id="bookGallery">
+				@foreach (var book in Model.Take(6))
 				{
-					<div class="image"><img src="images/Book.png" alt="Not Found"><span></span></div>
+					  <div class="image">
+                        <img src="~/images/Book.png" alt="@book.Title">
+                        <p class="book-title">@book.Title</p>
+                        <p class="book-author">@book.Author?.AuthorsName</p>
+                        <p class="book-price">@book.Price.ToString("C")</p>
+                    </div>
 				}
 			</div>
 		</div>
@@ -127,3 +133,37 @@
 	</div>
 </div>
 @* End Arrivals *@
+@section Scripts {
+    <script>
+		            console.log("Start");
+        let currentIndex = 0;
+        let books = @Html.Raw(Json.Serialize(Model));
+		books=books["$values"];
+        const bookElements = document.querySelectorAll('#bookGallery .image');
+
+        function rotateBooks() {
+            if (books.length === 0) return;
+					            console.log("AAAAAA");
+            // تحديث الكتاب الرئيس
+            const mainBook = books[currentIndex];
+            document.getElementById('bookTitle').textContent = mainBook.title;
+            document.getElementById('bookAuthor').textContent = mainBook.author.authorsName;
+            document.getElementById('bookPrice').textContent = '$' + mainBook.price.toFixed(2);
+            
+            // تحديث معرض الكتب
+            for (let i = 0; i < bookElements.length; i++) {
+                const bookIndex = (currentIndex + i + 1) % books.length;
+                const book = books[bookIndex];
+                
+                bookElements[i].querySelector('.book-title').textContent = book.title;
+                bookElements[i].querySelector('.book-author').textContent = book.author.authorsName;
+                bookElements[i].querySelector('.book-price').textContent = '$' + book.price.toFixed(2);
+            }
+            
+            currentIndex = (currentIndex + 1) % books.length;
+        }
+
+        setInterval(rotateBooks, 5000);
+        rotateBooks();
+    </script>
+}
