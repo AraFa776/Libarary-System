@@ -17,10 +17,24 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        // الكتب الأكثر طلباً (حسب عدد الطلبات في OrderDetails)
+        var trendingBooks = _context.Books
+            .Include(b => b.Author)
+            .Include(b => b.Category) // تأكد من تضمين الفئة
+            .OrderByDescending(b => b.OrderDetails.Sum(od => od.Quantity))
+            .Take(6)
+            .ToList();
+
+        ViewBag.TrendingBooks = trendingBooks;
+        ViewBag.Categories = _context.Categories.ToList();
+
+        // الكتب العادية للصفحة الرئيسية
         var books = _context.Books
-              .Include(b => b.Author)
-              .Include(b => b.Publisher)
-              .ToList();
+            .Include(b => b.Author)
+            .Include(b => b.Publisher)
+            .Where(b => b.Author != null)
+            .ToList();
+
         return View(books);
     }
 
