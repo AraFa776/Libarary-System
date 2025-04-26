@@ -42,58 +42,50 @@
 @* End Landing *@
 @* Start Trending *@
 <div class="trending">
-	<div class="backge">
-		<div class="main-heading">
-			<span>Trending</span>
-			<div class="arrows">
-				<button><i class="fa-solid fa-arrow-left"></i></button>
-				<button><i class="fa-solid fa-arrow-right"></i></button>
-			</div>
-		</div>
-		<div class="content">
-			<div class="text">
-				<div class="types">
-					<p>Historical Biographies <i class="fa-solid fa-arrow-right"></i></p>
-					<p>Leaders & Notable <i class="fa-solid fa-arrow-right"></i></p>
-					<p>Modern Biographies <i class="fa-solid fa-arrow-right"></i></p>
-					<p>Sports Biographies <i class="fa-solid fa-arrow-right"></i></p>
-					<p>United States Biographies <i class="fa-solid fa-arrow-right"></i></p>
-					<p>Action & Adventure <i class="fa-solid fa-arrow-right"></i></p>
-				</div>
-				<button>View More <i class="fa-solid fa-angle-right"></i></button>
-			</div>
-			<div class="cards">
-				@for (int i = 0; i < 3; i++)
-				{
-					<div class=" card-shape">
-						<div class="image">
-							<i class="fa-solid fa-heart"></i>
-							<img src="images/Book.png" alt="Book">
-						</div>
-						<div class="info">
-							<div class="rate">
-								<i class="fa-solid fa-star">  4.5</i>
-								<span>140 Reviews</span>
-							</div>
-							<div class="author">
-								<p>By Author Name</p>
-								<p>Title of Book</p>
-							</div>
-							<p><del>Rs 200.00 Eg</del></p>
-							<div class="price">
-								<span>Rs 100.00 Eg</span>
-								<span>50% off</span>
-							</div>
-							<button> Add To Cart <i class="fa-solid fa-cart-shopping active"></i></button>
-						</div>
-					</div>
-				}
-			</div>
-		</div>
-	</div>
+    <div class="backge">
+        <div class="main-heading">
+            <span>trending</span>
+            <div class="arrows">
+                <button id="trendingPrev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button id="trendingNext"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+                <div class="types">
+@foreach (var category in ((IEnumerable<FirstTry.Models.Category>)ViewBag.Categories).Take(6))
+                    {
+                        <p data-category-id="@category.CategoryId">@category.CategoryName <i class="fa-solid fa-arrow-right"></i></p>
+                    }
+                </div>
+                <button>Show more <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div class="cards" id="trendingBooksContainer">
+@foreach (var book in ((IEnumerable<FirstTry.Models.Book>)ViewBag.TrendingBooks).Take(3))
+                {
+                    <div class="card-shape trending-book">
+                        <div class="image">
+                            <i class="fa-solid fa-heart"></i>
+                            <img src="~/images/Book.png" alt="@book.Title">
+                        </div>
+                        <div class="info">
+                            <div class="author">
+                                <p>@book.Author?.AuthorsName</p>
+                                <p>@book.Title</p>
+                            </div>
+                            <div class="price">
+                                <span>@book.Price.ToString("C")</span>
+                            </div>
+                            <button>Add To Cart <i class="fa-solid fa-cart-shopping active"></i></button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
 </div>
-@* End Trending *@ 
-@* Start Arrivals *@
+@* End Trending *@
+@* @* Start Arrivals *@
 <div class="arrivals">
 	<div class="backge">
 		<div class="main-heading">
@@ -132,25 +124,25 @@
 		</div>
 	</div>
 </div>
-@* End Arrivals *@
+@* End Arrivals *@ *
 @section Scripts {
     <script>
+        // script Books
 		            console.log("Start");
         let currentIndex = 0;
         let books = @Html.Raw(Json.Serialize(Model));
-		books=books["$values"];
+		//books=books["$values"];
+        console.log(books);
         const bookElements = document.querySelectorAll('#bookGallery .image');
 
         function rotateBooks() {
             if (books.length === 0) return;
 					            console.log("AAAAAA");
-            // تحديث الكتاب الرئيس
             const mainBook = books[currentIndex];
             document.getElementById('bookTitle').textContent = mainBook.title;
             document.getElementById('bookAuthor').textContent = mainBook.author.authorsName;
             document.getElementById('bookPrice').textContent = '$' + mainBook.price.toFixed(2);
             
-            // تحديث معرض الكتب
             for (let i = 0; i < bookElements.length; i++) {
                 const bookIndex = (currentIndex + i + 1) % books.length;
                 const book = books[bookIndex];
@@ -162,8 +154,67 @@
             
             currentIndex = (currentIndex + 1) % books.length;
         }
-
+		            rotateBooks();
         setInterval(rotateBooks, 5000);
-        rotateBooks();
     </script>
+	<script>
+        // script Ternding
+let trendingBooks = @Html.Raw(Json.Serialize(ViewBag.TrendingBooks));
+trendingBooks = trendingBooks.$values || trendingBooks;
+let currentTrendingIndex = 0;
+
+function updateTrendingBooks() {
+    const container = document.getElementById('trendingBooksContainer');
+    if (!container || !trendingBooks.length) return;
+
+    const bookIndices = [
+        currentTrendingIndex % trendingBooks.length,
+        (currentTrendingIndex + 1) % trendingBooks.length,
+        (currentTrendingIndex + 2) % trendingBooks.length
+    ];
+
+    let html = '';
+    bookIndices.forEach(index => {
+        const book = trendingBooks[index];
+        if (book) {
+            html += `
+                <div class="card-shape trending-book">
+                    <div class="image">
+                        <i class="fa-solid fa-heart"></i>
+                        <img src="/images/Book.png" alt="${book.title}">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <p>${book.author?.authorsName || 'مؤلف غير معروف'}</p>
+                            <p>${book.title}</p>
+                        </div>
+                        <div class="price">
+                            <span>${book.price.toFixed(2)} ج.م</span>
+                        </div>
+                        <button>Add To Cart <i class="fa-solid fa-cart-shopping active"></i></button>
+                    </div>
+                </div>
+            `;
+        }
+    });
+
+    container.innerHTML = html;
+    currentTrendingIndex = (currentTrendingIndex + 1) % trendingBooks.length;
+}
+
+setInterval(updateTrendingBooks, 5000);
+
+document.getElementById('trendingPrev')?.addEventListener('click', () => {
+    currentTrendingIndex = (currentTrendingIndex - 1 + trendingBooks.length) % trendingBooks.length;
+    updateTrendingBooks();
+});
+
+document.getElementById('trendingNext')?.addEventListener('click', () => {
+    currentTrendingIndex = (currentTrendingIndex + 1) % trendingBooks.length;
+    updateTrendingBooks();
+});
+
+updateTrendingBooks();
+
+	</script>
 }
