@@ -16,7 +16,7 @@ namespace FirstTry
                 .AddJsonOptions(options =>
                 {
                     options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-                    options.JsonSerializerOptions.WriteIndented = true; // Optional: makes JSON output pretty
+                    options.JsonSerializerOptions.WriteIndented = true;
                 });
             builder.Services.AddDbContext<BookhupContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
