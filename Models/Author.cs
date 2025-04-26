@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace FirstTry.Models;
 
@@ -11,5 +12,6 @@ public partial class Author
 
     public string Nationality { get; set; } = null!;
 
+    [JsonIgnore]
     public virtual ICollection<Book> Books { get; set; } = new List<Book>();
 }
