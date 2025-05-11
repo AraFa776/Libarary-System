@@ -1,0 +1,52 @@
+﻿@model CheckoutModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-lg p-4" style="width: 100%; max-width: 600px;">
+        <h2 class="text-center mb-4">Checkout</h2>
+
+        <form asp-action="Checkout">
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Name*</label>
+                <input type="text" class="form-control" asp-for="Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email*</label>
+                <input type="email" class="form-control" asp-for="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="MobileNumber" class="form-label">Mobile Number*</label>
+                <input type="text" class="form-control" asp-for="MobileNumber" />
+                <span asp-validation-for="MobileNumber" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Address" class="form-label">Address*</label>
+                <textarea class="form-control" asp-for="Address" rows="4"></textarea>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PaymentMethod" class="form-label">Payment Method*</label>
+                <select asp-for="PaymentMethod" class="form-select">
+                    <option value="">Select Payment Method</option>
+                    @foreach (var method in Enum.GetValues(typeof(BookShoppingCartMvcUI.Constants.PaymentMethods)))
+                    {
+                        <option value="@method.ToString()">@method.ToString()</option>
+                    }
+                </select>
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg">Next</button>
+            </div>
+        </form>
+    </div>
+</div>

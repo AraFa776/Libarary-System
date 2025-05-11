@@ -1,0 +1,54 @@
+﻿@model OrderDetailModalDTO
+
+<div class="modal fade" id="modal-@Model.DivId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content shadow-lg">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="exampleModalLabel">Order Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body px-4 pt-4">
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col">Book</th>
+                                <th scope="col">Genre</th>
+                                <th scope="col" class="text-end">Unit Price</th>
+                                <th scope="col" class="text-center">Qty</th>
+                                <th scope="col" class="text-end">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.OrderDetail)
+                            {
+                                <tr class="align-middle">
+                                    <td class="fw-medium">@item.Book.BookName</td>
+                                    <td class="text-muted">@item.Book.Genre.GenreName</td>
+                                    <td class="text-end">$@item.UnitPrice.ToString("F2")</td>
+                                    <td class="text-center">@item.Quantity</td>
+                                    <td class="text-end fw-bold text-success">$@((item.Quantity * item.UnitPrice).ToString("F2"))</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Summary Section -->
+                <div class="d-flex justify-content-between mt-4 pt-3">
+                    <div class="fs-5 fw-bold">Total Amount</div>
+                    <div class="fs-5 fw-bold text-success">
+                        $@Model.OrderDetail.Sum(x => x.Quantity * x.UnitPrice).ToString("F2")
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                    <i class="bi bi-x-circle me-1"></i>Close
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

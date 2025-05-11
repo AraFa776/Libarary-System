@@ -1,0 +1,101 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "GetUserCart";
+}
+
+<div style="margin:auto" class="py-5 container">
+    @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
+    {
+        <h3 class="mb-3">My Cart</h3>
+
+        <table class="table table-hover align-middle mb-0 text-center">
+            <thead class=" table-info">
+                <tr>
+                    <th>Image</th>
+                    <th>Book</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            @foreach (var item in Model.CartDetails)
+            {
+                <tr class="align-middle">
+                    <td>
+                        @if (string.IsNullOrEmpty(item.Book.Image))
+                        {
+                            <img src="/images/NoImage.png" style="width:80px;height:100px" />
+                        }
+                        else
+                        {
+                            <img src="@item.Book.Image" style="width:80px;height:100px" />
+                        }
+                    <td>
+                        <span>@item.Book.BookName</span>
+                        <br />
+                        <span class=" text-muted">@item.Book.Genre.GenreName</span>
+                    </td>
+
+                    </td>
+                    <td>@item.Book.Price</td>
+                    <td>@item.Quantity</td>
+                    <td>@(item.Book.Price * item.Quantity)</td>
+                    <td>
+                        @* Buttons بدل روابط *@
+                        @if (item.Quantity < item.Book.Stock.Quantity)
+                        {
+                            <button class="btn btn-info btn-add" data-id="@item.BookId">+</button>
+                        }
+                        else
+                        {
+                            <span style="border: 1px solid;padding: 8px 8px;color: red;border-radius: 5px;margin-right:4px">Out of stock </span>
+                        }
+
+                        <button class="btn btn-info btn-remove my-3" data-id="@item.BookId">-</button>
+                    </td>
+                </tr>
+            }
+        </table>
+        <div class="d-flex justify-content-center align-itmes-cneter">
+            <div class="m-3 text-center">
+                <h5 class="fs-4 fa-bold">Total: </h5>
+
+                <span class="fs-4 fa-bold">@(Model.CartDetails.Select(item => item.Book.Price * item.Quantity).Sum())</span>
+            </div>
+
+            <div class="m-4">
+                <a class="btn btn-primary" href="/Cart/Checkout">Check out</a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <h3 class="text-center">Cart is empty</h3>
+    }
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $(".btn-add").click(function () {
+                const bookId = $(this).data("id");
+
+                $.get(`/Cart/AddItem?bookId=${bookId}&redirect=0`, function (data) {
+                    location.reload(); // مؤقتًا reload لعرض التحديث
+                });
+            });
+
+            $(".btn-remove").click(function () {
+                const bookId = $(this).data("id");
+
+                $.get(`/Cart/RemoveItem?bookId=${bookId}`, function (data) {
+                    location.reload(); // مؤقتًا reload لعرض التحديث
+                });
+            });
+
+        });
+    </script>
+}

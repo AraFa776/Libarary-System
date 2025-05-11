@@ -1,0 +1,28 @@
+﻿@model List<BookShoppingCartMvcUI.Models.Genre>
+<section id="services" class="services section">
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Sections</h2>
+        <p>
+            We are at your service and offer you the best products wherever you are, with the possibility of home delivery.
+        </p>
+    </div>
+
+    <div class="container">
+
+        <div class="row gy-4">
+            @foreach (var Item in Model)
+            {
+                <div class="col-xl-4 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item d-flex justify-content-center">
+                        <div>
+                            <h4 class="title"><a href="/Home/Book/@Item.Id" class="stretched-link">@Item.GenreName</a></h4>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+</section>

@@ -1,0 +1,116 @@
+@model TopNSoldBooksVm
+@{
+    Layout = "_AdminLayout";
+}
+<div class="container py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="mb-0 text-primary">
+            <i class="bi bi-graph-up-arrow me-2"></i>Top Selling Books
+        </h3>
+        @if (Model != null && Model.TopNSoldBooks.Any())
+        {
+            <span class="badge bg-primary-subtle text-primary fs-6">
+                Showing Top @Model.TopNSoldBooks.Count()
+            </span>
+        }
+    </div>
+
+    @if (Model != null)
+    {
+        <div class="card shadow-md border-0 rounded-4 mb-4">
+            <div class="card-body p-4">
+                <form class="row g-3 mb-4" asp-action="TopFiveSellingBooks" method="get">
+                    <div class="col-md-4">
+                        <label class="form-label fw-semibold">Start Date</label>
+                        <input type="date" class="form-control" name="sDate" />
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label fw-semibold">End Date</label>
+                        <input type="date" class="form-control" name="eDate" />
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-primary d-flex align-items-center gap-2">
+                                <i class="bi bi-funnel-fill"></i> Filter
+                            </button>
+                            <a class="btn btn-primary text-white d-flex align-items-center gap-2" href="/Reports/TopFiveSellingBooks">
+                                <i class="bi bi-arrow-counterclockwise"></i> Clear
+                            </a>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="alert alert-light border border-2 border-primary-subtle bg-gradient rounded-3 py-3 px-4 mb-4">
+                    <h6 class="mb-0">
+                        <i class="bi bi-calendar-range text-primary me-2"></i>
+                        from
+                        <span class="fw-bold">@Model.StartDate.ToString("dd-MMM-yyyy")</span>
+                        to
+                        <span class="fw-bold">@Model.EndDate.ToString("dd-MMM-yyyy")</span>
+                    </h6>
+                </div>
+
+                @if (Model.TopNSoldBooks.Count() == 0)
+                {
+                    <div class="alert alert-warning text-center py-5">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i>
+                        No records found for the selected period
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-info">
+                                <tr>
+                                    <th scope="col">Book Title</th>
+                                    <th scope="col" class="text-center">Units Sold</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    int rank = 1;
+                                }
+                                @foreach (var item in Model.TopNSoldBooks)
+                                {
+                                    <tr class="align-middle">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="me-3 p-2 bg-light rounded-circle">
+                                                    <span class="fw-bold">@(rank++)</span>
+                                                </div>
+                                                <div>
+                                                    <h6 class="mb-0">@item.BookName</h6>
+                                                    <small class="text-muted">by @item.AuthorName</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center fw-bold text-primary">@item.TotalUnitSold</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+
+        </div>
+        @if (Model.TopNSoldBooks.Any())
+        {
+            <div class="text-center mt-4">
+                <a href="/Reports/ExportTopBooks?startDate=@Model.StartDate.ToString("yyyy-MM-dd")&endDate=@Model.EndDate.ToString("yyyy-MM-dd")"
+                   class="btn btn-outline-primary d-inline-flex align-items-center gap-2">
+                    <i class="bi bi-file-earmark-arrow-down"></i> Export to CSV
+                </a>
+            </div>
+        }
+
+    }
+    else
+    {
+        <div class="alert alert-danger text-center py-5">
+            <h4 class="mb-3">Something went wrong</h4>
+            <p class="mb-0">Please try refreshing the page or contact support if the issue persists</p>
+        </div>
+    }
+</div>

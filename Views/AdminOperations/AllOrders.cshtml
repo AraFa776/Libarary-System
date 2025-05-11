@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Order>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "All Orders";
+}
+
+<div class="container py-4">
+    <!-- Page Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="mb-0 text-primary">
+            <i class="bi bi-receipt me-2"></i>All Orders
+        </h3>
+        @if (Model != null && Model.Any())
+        {
+            <span class="badge bg-primary-subtle text-primary">
+                @Model.Count() Orders
+            </span>
+        }
+    </div>
+
+    <!-- Responsive Table Container -->
+    <div class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead class="table-info">
+                <tr>
+                    <th scope="col">Order Date</th>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Contact</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Payment</th>
+                    <th scope="col">Status</th>
+                    <th scope="col" class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.CreateDate.ToString("MMM dd, yyyy")</td>
+                            <td>@order.Name</td>
+                            <td>@order.MobileNumber</td>
+                            <td>@order.Email</td>
+                            <td class="text-truncate" style="max-width: 200px;" title="@order.Address">
+                                @order.Address
+                            </td>
+                            <td>
+                                <span class="badge @(order.IsPaid ? "bg-success" : "bg-danger-subtle text-danger")">
+                                    @order.PaymentMethod - @(order.IsPaid ? "Paid" : "Not Paid")
+                                </span>
+                            </td>
+                            <td>
+                                <span class="badge bg-primary">@order.OrderStatus.StatusName</span>
+                            </td>
+                            <td class="">
+                                <div class="d-flex justify-content-end gap-2">
+                                    <!-- View Detail Button -->
+
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#modal-@order.Id" class="btn btn-outline-primary">
+                                        <i class="bi bi-eye"></i>
+                                    </button>
+                                    <!-- Edit Status Button -->
+                                    <a asp-action="UpdateOrderStatus" asp-route-orderId="@order.Id"
+                                       class="btn btn-sm btn-outline-info" title="Edit Order Status">
+                                        <i class="bi bi-pencil mt-2"></i>
+                                    </a>
+
+                                    <!-- Toggle Payment Button -->
+                                    <a asp-action="TogglePaymentStatus" asp-route-orderId="@order.Id"
+                                       class="btn btn-sm btn-outline-success" title="Toggle Payment Status">
+                                        <i class="bi bi-credit-card"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Empty State -->
+    @if (Model == null || !Model.Any())
+    {
+        <div class="card border-0 mt-4">
+            <div class="card-body text-center p-5">
+                <i class="bi bi-receipt fs-1 text-muted mb-3"></i>
+                <h5 class="text-muted">No orders found</h5>
+                <p class="text-muted small">There are no orders to display</p>
+            </div>
+        </div>
+    }
+</div>
+
+@foreach (var order in Model ?? Enumerable.Empty<Order>())
+{
+    @await Html.PartialAsync("/Views/AdminOperations/_OrderDetailModal.cshtml",
+                new OrderDetailModalDTO
+        {
+            DivId = order.Id.ToString(),
+            OrderDetail = order.OrderDetail
+        })
+}

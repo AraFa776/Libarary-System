@@ -1,0 +1,957 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BookShoppingCartMvcUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookShoppingCartMvcUI.d40gtye7kg.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\Icons\\clothes.svg",
+      "PackagePath": "staticwebassets\\assets\\Icons\\clothes.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\Icons\\food.svg",
+      "PackagePath": "staticwebassets\\assets\\Icons\\food.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\Icons\\shoes.svg",
+      "PackagePath": "staticwebassets\\assets\\Icons\\shoes.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\LogInSheet.css",
+      "PackagePath": "staticwebassets\\assets\\css\\LogInSheet.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\Mystyle.css",
+      "PackagePath": "staticwebassets\\assets\\css\\Mystyle.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\RegisterSheet.css",
+      "PackagePath": "staticwebassets\\assets\\css\\RegisterSheet.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\account.css",
+      "PackagePath": "staticwebassets\\assets\\css\\account.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\homeSheet.css",
+      "PackagePath": "staticwebassets\\assets\\css\\homeSheet.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\assets\\css\\normalize.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\css\\site.css",
+      "PackagePath": "staticwebassets\\assets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\2.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\3.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\3.webp"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\features.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\features.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer-bg.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\hero-img.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-img.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\page-title-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\page-title-bg.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\app-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\app-1.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\app-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\app-2.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\app-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\app-3.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\books-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\books-1.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\books-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\books-2.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\books-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\books-3.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\branding-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\branding-1.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\branding-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\branding-2.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\branding-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\branding-3.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\product-1.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\product-2.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\portfolio\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\product-3.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\services.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\services.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\stats-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\stats-bg.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\team-shape.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\team-shape.svg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\team\\team-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-1.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\team\\team-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-2.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\team\\team-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-3.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\team\\team-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\team-4.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\assets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\assets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\css\\prb.txt",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\prb.txt"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\imagesloaded\\imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\isotope-layout\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\forms\\Readme.txt",
+      "PackagePath": "staticwebassets\\forms\\Readme.txt"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\forms\\contact.php",
+      "PackagePath": "staticwebassets\\forms\\contact.php"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\A_Man_Called_Ove.jpg",
+      "PackagePath": "staticwebassets\\images\\A_Man_Called_Ove.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Absolute_Power.jpg",
+      "PackagePath": "staticwebassets\\images\\Absolute_Power.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Along_Came_a_Spider.jpg",
+      "PackagePath": "staticwebassets\\images\\Along_Came_a_Spider.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\American_Assassin .jpg",
+      "PackagePath": "staticwebassets\\images\\American_Assassin .jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\At_the_Mountains_of_Madness.jpg",
+      "PackagePath": "staticwebassets\\images\\At_the_Mountains_of_Madness.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Beloved.jpg",
+      "PackagePath": "staticwebassets\\images\\Beloved.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Dracula.jpg",
+      "PackagePath": "staticwebassets\\images\\Dracula.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Ghost_Story.jpg",
+      "PackagePath": "staticwebassets\\images\\Ghost_Story.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Intensity.jpg",
+      "PackagePath": "staticwebassets\\images\\Intensity.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Interview_with_the_Vampire.jpg",
+      "PackagePath": "staticwebassets\\images\\Interview_with_the_Vampire.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Killing_Floor.jpg",
+      "PackagePath": "staticwebassets\\images\\Killing_Floor.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\My_Sisters_Keeper.jpg",
+      "PackagePath": "staticwebassets\\images\\My_Sisters_Keeper.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\NoImage.png",
+      "PackagePath": "staticwebassets\\images\\NoImage.png"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Norwegian_Wood.jpg",
+      "PackagePath": "staticwebassets\\images\\Norwegian_Wood.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\One_Hundred_Years_of_Solitude.jpg",
+      "PackagePath": "staticwebassets\\images\\One_Hundred_Years_of_Solitude.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\PS_I_Love_You.jpg",
+      "PackagePath": "staticwebassets\\images\\PS_I_Love_You.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Pompeii.jpg",
+      "PackagePath": "staticwebassets\\images\\Pompeii.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Raise_the_Titanic.jpg",
+      "PackagePath": "staticwebassets\\images\\Raise_the_Titanic.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Sarum.jpg",
+      "PackagePath": "staticwebassets\\images\\Sarum.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Alchemist.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Alchemist.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Bourne_Identity.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Bourne_Identity.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Fault_in_Our_Stars.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Fault_in_Our_Stars.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_First_Man_in_Rome.jpg",
+      "PackagePath": "staticwebassets\\images\\The_First_Man_in_Rome.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Great_Gatsby.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Great_Gatsby.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Haunting_of_Hill_House.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Haunting_of_Hill_House.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Hellbound_Heart.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Hellbound_Heart.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Hunt_for_Red_October.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Hunt_for_Red_October.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Kite_Runner.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Kite_Runner.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Last_Kingdom.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Last_Kingdom.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Lions_of_Lucerne.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Lions_of_Lucerne.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Memoirs_of_Cleopatra.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Memoirs_of_Cleopatra.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Notebook.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Notebook.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Old_Man_and_the_Sea.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Old_Man_and_the_Sea.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Other_Boleyn_Girl.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Other_Boleyn_Girl.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Pillars_of_the_Earth.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Pillars_of_the_Earth.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\The_Shining.jpg",
+      "PackagePath": "staticwebassets\\images\\The_Shining.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Things_Fall_Apart.jpg",
+      "PackagePath": "staticwebassets\\images\\Things_Fall_Apart.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\To_the_Lighthouse.jpg",
+      "PackagePath": "staticwebassets\\images\\To_the_Lighthouse.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Tuesdays_with_Morrie.jpg",
+      "PackagePath": "staticwebassets\\images\\Tuesdays_with_Morrie.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Ulysses.jpg",
+      "PackagePath": "staticwebassets\\images\\Ulysses.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\Wolf_Hall.jpg",
+      "PackagePath": "staticwebassets\\images\\Wolf_Hall.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\account-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\account-bg.jpg"
+    },
+    {
+      "Id": "F:\\FinalProject\\BookShoppingCart-Mvc-master\\BookShoppingCartMvcUI\\wwwroot\\images\\hobbit.jfif",
+      "PackagePath": "staticwebassets\\images\\hobbit.jfif"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BookShoppingCartMvcUI.props",
+      "PackagePath": "build\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildMultiTargeting\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildTransitive\\BookShoppingCartMvcUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

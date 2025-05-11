@@ -1,0 +1,41 @@
+﻿<style >
+body {
+    background-image: url('../../images/account-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-register {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+}
+
+    .card-register h2 {
+        font-weight: 600;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+.form-floating label {
+    color: #6c757d;
+}
+
+#registerSubmit {
+    margin-top: 1rem;
+}
+
+.text-danger {
+    font-size: 0.875rem;
+}
+
+</style >

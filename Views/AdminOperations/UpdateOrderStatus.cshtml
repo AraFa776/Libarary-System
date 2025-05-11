@@ -1,0 +1,59 @@
+﻿@model UpdateOrderStatusModel
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Update Order Status";
+}
+
+<div class="container py-4">
+    <!-- Page Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="mb-0 text-primary">
+            <i class="bi bi-receipt me-2"></i>Update Order Status
+        </h3>
+        <a class="btn btn-outline-primary d-flex align-items-center gap-2" asp-action="AllOrders">
+            <i class="bi bi-arrow-left-circle"></i> Back to Orders
+        </a>
+    </div>
+
+    <!-- Form Card -->
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="card-header bg-info">
+                    <h5 class="card-title mb-0">Order Details</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="UpdateOrderStatus" class="needs-validation" novalidate>
+                        <input type="hidden" asp-for="OrderId" />
+
+                        <!-- Order Status Dropdown -->
+                        <div class="mb-3">
+                            <label asp-for="OrderStatusId" class="form-label fw-semibold">Order Status</label>
+                            <select class="form-select" asp-for="OrderStatusId" asp-items="@Model.OrderStatusList">
+                                <option value="">Select order status</option>
+                            </select>
+                            <span class="text-danger small" asp-validation-for="OrderStatusId"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-primary d-flex align-items-center justify-content-center gap-2 py-2">
+                                <i class="bi bi-check-circle-fill"></i> Update Status
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Success Message -->
+                    @if (TempData["msg"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show mt-4 mb-0" role="alert">
+                            <i class="bi bi-check-circle me-1"></i>
+                            @TempData["msg"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

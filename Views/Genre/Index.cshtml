@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Genre>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Genre Management";
+}
+
+<div class="container py-4">
+    <!-- Page Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="mb-0 text-primary">
+            <i class="bi bi-collection me-2"></i>Genre Management
+        </h3>
+        <a asp-action="AddGenre" asp-controller="Genre" class="btn btn-primary d-flex align-items-center gap-2">
+            <i class="bi bi-plus-circle"></i> Add Genre
+        </a>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <!-- Responsive Table Container -->
+        <div class="table-responsive shadow-sm rounded-3 overflow-hidden">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-info">
+                    <tr>
+                        <th scope="col">Genre Name</th>
+                        <th scope="col" class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var genre in Model)
+                    {
+                        <tr>
+                            <td class="fw-medium">@genre.GenreName</td>
+                            <td class="text-end">
+                                <div class="d-flex justify-content-end gap-2">
+                                    <a asp-action="UpdateGenre"
+                                       asp-controller="Genre"
+                                       asp-route-id="@genre.Id"
+                                       class="btn btn-sm btn-outline-primary d-flex align-items-center gap-1">
+                                        <i class="bi bi-pencil-square"></i>
+                                        <span>Edit</span>
+                                    </a>
+
+                                    <a asp-action="DeleteGenre"
+                                       asp-controller="Genre"
+                                       asp-route-id="@genre.Id"
+                                       class="btn btn-sm btn-outline-danger d-flex align-items-center gap-1"
+                                       onclick="return confirm('Are you sure you want to delete this genre?')">
+                                        <i class="bi bi-trash"></i>
+                                        <span>Delete</span>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="card border-0 shadow-sm mt-4">
+            <div class="card-body text-center p-5">
+                <i class="bi bi-collection fs-1 text-muted mb-3"></i>
+                <h5 class="text-muted">No genres found</h5>
+                <p class="text-muted small">Click "Add Genre" to create a new genre</p>
+            </div>
+        </div>
+    }
+</div>

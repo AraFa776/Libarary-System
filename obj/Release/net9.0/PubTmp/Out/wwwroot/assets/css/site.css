@@ -1,0 +1,259 @@
+/* Start Variables */
+:root {
+    --main-color: #435058;
+    --main-color-rbg: rgb(67 80 88 / 90%);
+    --holding-color: #848c8e;
+    --second-color: #dcf763;
+    --transition-time: 0.5s;
+    --secion-padding: 100px;
+}
+.portfolio-content {
+    height: 300px;
+    overflow: hidden;
+}
+
+.book-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Syne", sans-serif;
+    cursor: default;
+    background-image: url(../images/Background.png);
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.backge {
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+/* Small */
+
+@media (min-width: 768px) {
+    .backge {
+        width: 750px;
+    }
+}
+
+/* Medium */
+
+@media (min-width: 992px) {
+    .backge {
+        width: 970px;
+    }
+}
+
+/* Large */
+
+@media (min-width: 1200px) {
+    .backge {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Start Header */
+header {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+    header .backge {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(255 255 255 / 60%);
+    }
+
+.logo {
+    position: relative;
+    height: 100%;
+}
+
+    .logo::before {
+        content: "";
+        width: 170px;
+        height: 100%;
+        background-color: var(--main-color-rbg);
+        position: absolute;
+        left: -15px;
+        top: 0px;
+        z-index: 3;
+    }
+
+@media (max-width:767px) {
+    .logo {
+        padding: 5px;
+    }
+}
+
+.logo img {
+    position: relative;
+    width: 140px;
+    z-index: 4;
+}
+
+header .backge nav ul {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    header .backge img {
+        width: 100px;
+    }
+
+    header .backge nav {
+        display: none;
+    }
+}
+
+header .backge nav ul li a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: var(--transition-time);
+}
+
+header .backge nav ul .dropdown button {
+    border: none;
+    background-color: transparent;
+    color: black;
+    transition-duration: var(--transition-time);
+    padding: 5px 10px;
+}
+
+    header .backge ul li:hover a,
+    header .backge nav ul .dropdown button:hover {
+        background-color: var(--main-color);
+        color: var(--second-color);
+        border-radius: 20px;
+    }
+
+header .backge .sign-in > i {
+    margin-right: 10px;
+}
+
+header .backge .sign-in > i {
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+    header .backge .sign-in > i:hover {
+        background-color: var(--main-color);
+        color: var(--second-color);
+        border: none;
+        transition-duration: var(--transition-time);
+    }
+
+header .backge .sign-in button {
+    width: 120px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    background-color: var(--second-color);
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+    header .backge .sign-in button p {
+        display: inline;
+        margin-right: 10px;
+    }
+
+@media (max-width: 767px) {
+    header .backge .sign-in > i {
+        margin-right: 5px;
+    }
+}
+/* End Header */
+/* Start Footer*/
+footer {
+    padding: calc(var(--section-padding) / 2);
+}
+
+    footer img {
+        display: block;
+        max-width: 140px;
+    }
+
+    footer .backge {
+        width: 100%;
+        display: grid;
+        font-size: 12px;
+        line-height: 1.8;
+        padding: 30px;
+        background-color: var(--main-color);
+        color: white;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    }
+
+
+        footer .backge .footer-column img,
+        footer .backge .footer-column div:nth-child(2) {
+            margin-bottom: 30px;
+        }
+
+        footer .backge .footer-column .social p {
+            margin-bottom: 5px;
+        }
+
+        footer .backge .footer-column .social a {
+            font-size: 20px;
+            padding: 0px 10px;
+        }
+
+            footer .backge .footer-column .social a:visited {
+                color: var(--second-color);
+            }
+
+        footer .backge .info h3 {
+            margin-bottom: 20px;
+        }
+/* End Footer*/

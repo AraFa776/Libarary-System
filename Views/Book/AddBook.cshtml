@@ -1,0 +1,70 @@
+﻿@model BookDTO
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6 my-4">
+            <!-- Card wrapper for better spacing/shadow -->
+            <div class="card shadow-lg rounded-3">
+                <div class="card-body p-4">
+                    <h3 class="card-title text-center mb-4 text-primary">Add Book</h3>
+
+                    <!-- Back Button -->
+                    <!-- Form -->
+                    <form asp-action="AddBook" enctype="multipart/form-data" class="needs-validation " novalidate>
+                        @* <input type="hidden" asp-for="Id" /> *@
+
+                        <!-- Book Name -->
+                        <div class="mb-3">
+                            <label asp-for="BookName" class="form-label fw-bold fs-5">Book Name</label>
+                            <input type="text" class="form-control form-control-lg" asp-for="BookName" placeholder="Enter book title" required />
+                            <span asp-validation-for="BookName" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Author Name -->
+                        <div class="mb-3">
+                            <label asp-for="AuthorName" class="form-label fw-bold fs-5">Author Name</label>
+                            <input type="text" class="form-control form-control-lg" asp-for="AuthorName" placeholder="Enter author name" required />
+                            <span asp-validation-for="AuthorName" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Genre -->
+                        <div class="mb-3">
+                            <label asp-for="GenreId" class="form-label fw-bold fs-5">Genre</label>
+                            <select class="form-select form-select-lg" asp-for="GenreId" asp-items="Model.GenreList" required>
+                                <option value="">Select Genre</option>
+                            </select>
+                            <span asp-validation-for="GenreId" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Price -->
+                        <div class="mb-3">
+                            <label asp-for="Price" class="form-label fw-bold fs-5">Price</label>
+                            <input type="number" step="0.01" class="form-control form-control-lg" asp-for="Price" placeholder="0.00" required />
+                            <span asp-validation-for="Price" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Image Upload -->
+                        <div class="mb-3">
+                            <label asp-for="ImageFile" class="form-label fw-bold fs-5">Book Cover Image</label>
+                            <input type="file" class="form-control form-control-lg" asp-for="ImageFile" accept="image/*" />
+                            <small class="text-muted">Supported formats: JPG, PNG, JPEG</small>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg py-2">Add Book</button>
+
+                            <a asp-action="Index" asp-controller="Book" class="btn btn-outline-primary btn-lg my-3">
+                                <i class="bi bi-arrow-left"></i> Back
+                            </a>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

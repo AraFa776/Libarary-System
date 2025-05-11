@@ -1,0 +1,110 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<div class="policyp">
+    <h1 style="color: #2c3e50; border-bottom: 2px solid #3498db;
+               display: inline-block; padding-bottom: 10px; margin-bottom: 30px;">
+        @ViewData["Title"]
+    </h1>
+</div>
+
+<div class="privacy-policy-container">
+    <section class="policy-section">
+        <h2>Information We Collect</h2>
+        <p>We collect information from you when you register on our site, place an order, subscribe to our newsletter, or fill out a form.</p>
+    </section>
+
+    <section class="policy-section">
+        <h2>How We Use Your Information</h2>
+        <p>Any information we collect may be used in the following ways:</p>
+        <ul>
+            <li><strong>To personalize your experience:</strong> Your information helps us better respond to your individual needs.</li>
+            <li><strong>To improve our website:</strong> We continually improve our offerings based on your feedback.</li>
+            <li><strong>To enhance customer service:</strong> Your information helps us respond more effectively to your requests.</li>
+            <li><strong>To process transactions:</strong> Your information will not be sold or transferred without your consent, except to deliver purchased products/services.</li>
+        </ul>
+    </section>
+
+    <section class="policy-section">
+        <h2>Information Protection</h2>
+        <p>We implement various security measures to maintain the safety of your personal information when you place an order or access your account.</p>
+    </section>
+
+    <section class="policy-section">
+        <h2>Cookies</h2>
+        <p>We do not use cookies for tracking purposes.</p>
+    </section>
+
+    <section class="policy-section">
+        <h2>Information Disclosure</h2>
+        <p>We do not sell, trade, or transfer your personally identifiable information to outside parties, except to:</p>
+        <ul>
+            <li>Trusted third parties who assist in operating our website and conducting business (provided they keep information confidential)</li>
+            <li>Comply with legal requirements, enforce site policies, or protect rights, property, or safety</li>
+        </ul>
+        <p>Non-personally identifiable visitor information may be provided to other parties for marketing or advertising purposes.</p>
+    </section>
+
+    <section class="policy-section">
+        <h2>Policy Scope</h2>
+        <p>This online privacy policy applies only to information collected through our website and not to information collected offline.</p>
+    </section>
+
+    <section class="policy-section">
+        <h2>Policy Changes</h2>
+        <p>If we modify our privacy policy, we will:</p>
+        <ul>
+            <li>Post changes on this page</li>
+            <li>Notify users via email (if appropriate)</li>
+            <li>Update the modification date below</li>
+        </ul>
+    </section>
+
+    <div class="last-updated">
+        <p>Last modified: @DateTime.Now.ToString("MMMM dd, yyyy")</p>
+    </div>
+</div>
+
+<style>
+    .privacy-policy-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.6;
+    }
+
+    .policy-section {
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .policyp {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .policy-section:last-child {
+        border-bottom: none;
+    }
+
+    h2 {
+        color: #2c3e50;
+        margin-top: 25px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    .last-updated {
+        text-align: right;
+        font-style: italic;
+        color: #7f8c8d;
+        margin-top: 30px;
+    }
+</style>

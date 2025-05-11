@@ -1,0 +1,53 @@
+﻿@model StockDTO
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Manage Stock";
+}
+
+<div class="container py-4">
+    <!-- Page Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h3 class="mb-0 text-primary">
+            <i class="bi bi-archive me-2"></i>Manage Stock
+        </h3>
+        <a asp-action="Index" asp-controller="Stock" class="btn btn-outline-primary d-flex align-items-center gap-2">
+            <i class="bi bi-arrow-left-circle"></i> Back to Stock
+        </a>
+    </div>
+
+    <!-- Form Card -->
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                <div class="card-header bg-info">
+                    <h5 class="card-title mb-0">Update Stock Quantity</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="ManangeStock" class="needs-validation" novalidate>
+                        <input type="hidden" asp-for="BookId" />
+
+                        <!-- Quantity Input -->
+                        <div class="mb-3">
+                            <label asp-for="Quantity" class="form-label fw-bold fs-5 mb-3">Stock Quantity</label>
+                            <input type="number"
+                                   class="form-control form-control-lg"
+                                   asp-for="Quantity"
+                                   min="0"
+                                   placeholder="Enter quantity" />
+                            <div class="form-text text-muted">Current quantity: @Model.Quantity</div>
+                            <span class="text-danger small" asp-validation-for="Quantity"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-primary d-flex align-items-center justify-content-center gap-2 py-2">
+                                <i class="bi bi-check-circle-fill"></i>
+                                <span>Update Stock</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
